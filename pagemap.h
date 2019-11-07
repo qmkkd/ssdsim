@@ -2,7 +2,7 @@
 This project was supported by the National Basic Research 973 Program of China under Grant No.2011CB302301
 Huazhong University of Science and Technology (HUST)   Wuhan National Laboratory for Optoelectronics
 
-FileName£º pagemap.h
+FileNameÂ£Âº pagemap.h
 Author: Hu Yang		Version: 2.1	Date:2011/12/02
 Description: 
 
@@ -19,7 +19,7 @@ Zhiming Zhu     2012/07/19        2.1.1         Correct erase_planes()   8128398
 
 void file_assert(int error,char *s);
 void alloc_assert(void *p,char *s);
-void trace_assert(_int64 time_t,int device,unsigned int lsn,int size,int ope);
+void trace_assert(__int64 time_t,int device,unsigned int lsn,int size,int ope);
 
 struct local *find_location(struct ssd_info *ssd,unsigned int ppn);
 unsigned int find_ppn(struct ssd_info * ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page);
